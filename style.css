@@ -1,0 +1,224 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #1f1f1f; /* Default text color */
+}
+
+header, footer {
+    background-color: #20e5ff;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+nav {
+    background-color: #20e5ff; /* Dark gray background for navigation bar */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    border-radius: 4px; /* Rounded corners */
+}
+
+nav ul li a:hover {
+    background-color: #0047e0; /* Darken the background color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2, h3 {
+    color: #5c5c5c;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow content */
+    border: 1px solid #ddd; /* Add border */
+    background-color: #fff; /* White background */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Bottom border for cells */
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row colors */
+}
+
+/* Fancy Database Styles */
+.vulnerability {
+    border-left: 5px solid #333; /* Left border for each vulnerability */
+    padding-left: 15px; /* Add padding */
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Light gray background for each vulnerability */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.vulnerability h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.vulnerability p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* New styles for improved appearance */
+h2 {
+    margin-top: 40px; /* Remove default margin */
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+h3 {
+    margin-top: 0; /* Remove default margin */
+}
+
+p {
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin: 0 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #006eff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px; /* Adjust button size as needed */
+    border: none;
+    background-color: #20e5ff; /* Add your desired background color */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #014166; /* Change color on hover */
+}
+
+button img {
+    width: 80%; /* Adjust image size */
+    height: auto;
+    margin-bottom: 10px; /* Add some space between image and text */
+}
+
+button span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* New styles for resizing and centering images */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.analysis-image {
+    width: 50%; /* Resize images to 30% */
+    margin: 0 auto; /* Center images */
+    display: block;
+}
+
+.image-description {
+    text-align: center;
+    margin: 0 20px; /* Add margin space on the sides */
+}
